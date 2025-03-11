@@ -61,7 +61,7 @@ internal class Program
 
         if (response != null)
         {
-            // Send the response with reply functionality using SendTextMessageAsync
+            // Send the response with reply functionality 
             await botClient.SendMessage(
                 chatId: chatId,
                 text: response,
